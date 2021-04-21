@@ -1,0 +1,7 @@
+yarn init -y                        :configura package.json inicial
+yarn add express                    :microserviço
+yarn add @types/express -D          :inclui as tipagens desse microserviço somente para Dev
+yarn add typescript -D              :instala o typescript somente para desenvolvimento
+yarn tsc --init                     :criar arquivo de configuração do TS => strict:false
+yarn add ts-node-dev                :tradutor do TS para o Node
+yarn dev                            :inicia o projeto
