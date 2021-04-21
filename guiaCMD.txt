@@ -5,3 +5,6 @@ yarn add typescript -D              :instala o typescript somente para desenvolv
 yarn tsc --init                     :criar arquivo de configuração do TS => strict:false
 yarn add ts-node-dev                :tradutor do TS para o Node
 yarn dev                            :inicia o projeto
+yarn add typeorm reflect-metadata sqlite3   :instalação do driver BD
+
+37s

@@ -2,6 +2,8 @@ import express from "express";
 
 const app = express();
 
+import './database';
+
 app.get("/",(request, response)=>{
     return response.json({
         "message": "Olá mundo!"
