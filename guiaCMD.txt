@@ -1,10 +1,15 @@
-yarn init -y                        :configura package.json inicial
-yarn add express                    :microserviço
-yarn add @types/express -D          :inclui as tipagens desse microserviço somente para Dev
-yarn add typescript -D              :instala o typescript somente para desenvolvimento
-yarn tsc --init                     :criar arquivo de configuração do TS => strict:false
-yarn add ts-node-dev                :tradutor do TS para o Node
-yarn dev                            :inicia o projeto
-yarn add typeorm reflect-metadata sqlite3   :instalação do driver BD
+yarn init -y                                      :configura package.json inicial
+yarn add express                                  :microserviço
+yarn add @types/express -D                        :inclui as tipagens desse microserviço somente para Dev
+yarn add typescript -D                            :instala o typescript somente para desenvolvimento
+yarn tsc --init                                   :criar arquivo de configuração do TS => strict:false
+yarn add ts-node-dev                              :tradutor do TS para o Node
+yarn dev                                          :inicia o projeto
+yarn add typeorm reflect-metadata sqlite3         :instalação do driver BD
+yarn typeorm migration:create -n CreateSttings    :cria uma migration para um objeto
+yarn typeorm migration:run                        :executa o metodo up das migrations 
+yarn typeorm migration:revert                     :executa o metodo down das migrations
+yarn add uuid
+yarn add @types/uuid -D
 
-37s
+37m
